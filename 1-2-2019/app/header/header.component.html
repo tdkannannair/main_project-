@@ -1,0 +1,11 @@
+ <h1>hai hallo world</h1>
+<!-- {{ user.name}} -->
+
+<div *ngIf="user.phone.length > 0 ">valid phone number
+    <p *ngFor="let phone of user.phone">{{ phone}}</p>
+   </div>
+
+<button (click)="toggle()">tooggle</button>
+<p *ngIf="!check">
+  Email: oolas at gmail
+</p>
